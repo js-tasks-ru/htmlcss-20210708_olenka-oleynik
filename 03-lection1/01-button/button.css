@@ -1,1 +1,30 @@
-/* Стилизация кнопки */
+
+.btn  {
+    display: inline-block ;
+    height: 48px;
+    width: 189px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    text-align: center;
+    margin:8px 16px;
+    cursor: pointer;
+    
+}
+.btn_primary {
+    background: #4263EB;
+    color:white;
+}
+.btn_secondary {
+    background: #7048E8;
+    color:white;
+
+}
+.btn_alternate {
+    border: 1px solid #ACB5BD
+    color:black;
+}
+.btn:disabled{
+    opacity: 0.5;
+    cursor:default;
+}
