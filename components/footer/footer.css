@@ -1,0 +1,25 @@
+.footer{ background: #ffffff;
+    border-top: 1px solid #DDE2E5;
+
+}
+.footer__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 0;
+    color: #212429;
+    padding: 72px 0 32px;
+    text-align: center;
+}
+.footer__desc {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center ;
+    margin: 0 235px;
+    color: #212429;
+}
