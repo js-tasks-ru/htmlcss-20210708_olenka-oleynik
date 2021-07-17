@@ -12,17 +12,17 @@
     
 }
 .btn_primary {
-    background: #4263EB;
-    color:white;
+    background: var(--blue);
+    color: var(--white);
 }
 .btn_secondary {
-    background: #7048E8;
-    color:white;
+    background: var(--purple);
+    color: var(--white);
 
 }
 .btn_alternate {
     border: 1px solid #ACB5BD
-    color:black;
+    color: var(--black);
 }
 .btn:disabled{
     opacity: 0.5;
